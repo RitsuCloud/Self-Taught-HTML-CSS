@@ -1,0 +1,37 @@
+Text element: 
+
+<u></u> will underline text 
+<strong></strong> will bold text
+<span></span> is what we want if we style our own text, since we can give it class
+
+HTML Structure:
+
+<!DOCTYPE html> have this at the top to let browswer know use new version html
+<html></html> this say there is a web page between this tag, can only have one tag
+<head></head> for elements that are not meant to be visible to page 
+<body></body> suppose to only contain element that was visible to page
+
+<head></head> functions:
+<title></title> change the name of the website at the tab
+
+Hyper Link:
+hreft is the website to go to, target = "_blank" is to open it in a new tabe, ONLY WORK IN <a></a>
+
+Load CSS from another file:
+<link rel="Stylesheet" href = "name of file"> Sytlesheet is for the link to know what this is for
+and href just links the file. 
+If the css file is in a folder, href = "name of folder/ name of file"
+
+Search box
+<input> void element, <input type = "text"> for text, or type = "checkbox" for checkbox, add placeholder="search" for words 
+inside the search bar
+
+Image
+<img src="location of the img"> void element, can give img class and style it like text, but with a little
+different style.
+
+Vertical layout
+Vertical layout is rows
+
+Horizontal layout
+Horizontal layout is colums
