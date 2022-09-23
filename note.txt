@@ -30,8 +30,24 @@ Image
 <img src="location of the img"> void element, can give img class and style it like text, but with a little
 different style.
 
-Vertical layout
+Vertical layout: 
 Vertical layout is rows
 
-Horizontal layout
+Horizontal layout: 
 Horizontal layout is colums
+
+Grid Layout: 
+<div style="display: grid; grid-template-columns: 100px 100px; "> 
+Grid is better for maintaining alignment much better
+Grid template columns creates how many div is in each rows, right now there is 2 100 px div on the columns, to put more divs
+we need to add more #px at the end for it, and if we add div without addding the 100px, it will print on a new row
+
+<div style="
+      display: grid;
+      grid-template-columns: 100px 1fr;
+    ">
+    1 fr means 1 free space, which will take over the remaining amount of space
+    if 2 "1fr" it will split the remaining space betwen the two, the 1 is like a ratio,
+    it can have "1fr 2fr", the first div will get 1/3 of the space, and the second div, will
+    get the remaining 2/3 of the space
+
