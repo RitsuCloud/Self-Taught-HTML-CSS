@@ -37,6 +37,7 @@ Horizontal layout:
 Horizontal layout is colums
 
 Grid Layout: 
+Requires an container (and outter div)
 <div style="display: grid; grid-template-columns: 100px 100px; "> 
 Grid is better for maintaining alignment much better
 Grid template columns creates how many div is in each rows, right now there is 2 100 px div on the columns, to put more divs
@@ -53,4 +54,27 @@ we need to add more #px at the end for it, and if we add div without addding the
 
 column-gap: 20px;  row-gap: 40px;
 properties of grid we can use to have gaps between rows and columns
+
+FlexBox:
+Requires an container (and outter div) just like grid
+<div style="
+      display: flex;
+      flex-direction: row;
+    ">
+this is for the outter container.
+<div style="background-color: lightblue;
+      flex: 2;
+      ">div 2 <p>text</p></div>
+flex:2 is the equivlent of 2fr
+The different between grid and flexbox is that grid you have to specific column and space
+in the outter container, in flexbox you can have the style in the div itself, which is more flexible
+
+justify-content: end; is another way to line things up, start will line to left, end will line the the left, and
+center will line in center, all Horizontal
+
+align-items: end; will align items in the container vertically, start will align to top and only take the space it needs,so 
+it doesnt fill the whole container, end witll align bottom and center etc.
+
+
+
 
