@@ -75,6 +75,10 @@ center will line in center, all Horizontal
 align-items: end; will align items in the container vertically, start will align to top and only take the space it needs,so 
 it doesnt fill the whole container, end witll align bottom and center etc.
 
-
-
+Position html
+Position static is just default, no need for this
+Position fixed is like the div hovering over the page, an it will stay there
+Top: 0px, is how far this element is from the top of the browser window
+same with left, right, and bottom, if we set both side like right and left, the element will
+stretch to meet the condition
 
