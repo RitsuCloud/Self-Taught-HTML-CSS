@@ -1,4 +1,5 @@
 .header{
+  z-index: 1;
   height: 55px;
   display: flex;
   flex-direction: row;
@@ -106,9 +107,28 @@
   height: 25px;
 }
 
+.notification-container{
+  position: relative;
+}
+
+.notification-count{
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background-color: rgb(141, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
 .user-icon{
   height: 32px;
   border: none;
   border-radius: 16px;
   margin-right: 20px;
 }
+
