@@ -82,3 +82,6 @@ Top: 0px, is how far this element is from the top of the browser window
 same with left, right, and bottom, if we set both side like right and left, the element will
 stretch to meet the condition
 
+Position absolute
+It will place the element on the web page, so it move along with the page when scroll
+
