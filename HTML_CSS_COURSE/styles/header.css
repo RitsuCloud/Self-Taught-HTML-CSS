@@ -71,6 +71,9 @@
 
 .search-button, .voice-search-button{
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-button .tooltip, .voice-search-button .tooltip{
@@ -87,6 +90,8 @@
   opacity: 0;
   transition: opacity 0.2s;
   pointer-events: none;
+  white-space: nowrap;
+  margin-top: 60px;
 }
 
 .search-button:hover .tooltip, .voice-search-button:hover .tooltip{
@@ -95,7 +100,6 @@
 
 .search-icon{
   height: 25px;
-  margin-top: 4px;
 }
 
 .voice-search-button{
@@ -108,7 +112,6 @@
 
 .voice-search-icon{
   height: 25px;
-  margin-top: 4px;
 }
 
 .right-section{
