@@ -14,3 +14,11 @@
 .sidebar-link:hover{
   background-color: rgb(235,235,235);
 }
+
+/* this targets all img element inside class siderbar-link */
+.sidebar-link img{
+  height: 26px;
+  display: flex;
+  align-items: center; /* this centers Vertically MUST BE IN FLEX BOX Line above */
+  justify-content: center; /* this centers Horizontally */
+}
