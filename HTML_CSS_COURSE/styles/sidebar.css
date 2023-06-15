@@ -5,20 +5,30 @@
   top: 55px;
   width: 72px;
   background-color: white;
+  z-index: 10;
+  padding-top: 5px;
 }
 
 .sidebar-link{
-  height: 76px;
-}
+  height: 74px;
+  display: flex;
+  align-items: center; /* this centers Vertically MUST BE IN FLEX BOX Line above */
+  justify-content: center; /* this centers Horizontally(row) (flips with alignt when colum) */
+  flex-direction: column; /* this cause elements to display elements verically */
+}                         /* flex-direction: row will be horizontally */
 
 .sidebar-link:hover{
   background-color: rgb(235,235,235);
+  cursor: pointer;
 }
 
 /* this targets all img element inside class siderbar-link */
 .sidebar-link img{
   height: 26px;
-  display: flex;
-  align-items: center; /* this centers Vertically MUST BE IN FLEX BOX Line above */
-  justify-content: center; /* this centers Horizontally */
+  margin-bottom: 4px;
+}
+
+.sidebar-link div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
 }
