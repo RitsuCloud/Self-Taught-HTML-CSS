@@ -69,6 +69,30 @@
   margin-right: 8px;
 }
 
+.search-button, .voice-search-button{
+  position: relative;
+}
+
+.search-button .tooltip, .voice-search-button .tooltip{
+  padding-left: 8px;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -40;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip, .voice-search-button:hover .tooltip{
+  opacity: 1;
+}
+
 .search-icon{
   height: 25px;
   margin-top: 4px;
