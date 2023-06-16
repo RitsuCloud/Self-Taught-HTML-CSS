@@ -39,18 +39,35 @@
 .video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 60px;
+  column-gap: 16px;
   row-gap: 40px;
+}
+
+/* this is part of responsive design */
+@media (max-width: 750px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* once the screen size hits 1000px this activates */
+@media (min-width: 1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .video-time{
   font-family: Roboto,Arial;
   font-size: 15px;
   font-weight: 500;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 4px;
   border-radius: 2px;
   background-color: black;
   color: white;
